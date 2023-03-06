@@ -20,7 +20,7 @@ function App() {
 
       <Hero />
 
-      <main id="main">
+      <main style={{marginTop:"-80px"}} id="main">
         <About />
         <Whyus />
 
