@@ -1,9 +1,3 @@
-/**
-* Template Name: Resi - v4.10.0
-* Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -82,8 +76,10 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
+  alert(selectHeader)
   if (selectHeader) {
     const headerScrolled = () => {
+      alert("Mann")
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
       } else {

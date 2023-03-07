@@ -510,11 +510,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 110px;
   height: 3px;
   background: #5a5af3;
   bottom: 0;
-  left: calc(50% - 25px);
+  left: calc(50% - 50px);
 }
 
 .section-title p {
@@ -571,6 +571,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  background-color: white;
 }
 
 .why-us .box span {
