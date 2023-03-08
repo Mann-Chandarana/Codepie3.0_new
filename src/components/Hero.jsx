@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hero = () => {
     return (
-        <section style={{marginTop:"-40px"}} id="hero" className="d-flex align-items-center">
+        <section style={{marginTop:"-60px"}} id="hero" className="d-flex align-items-center">
 
             <div className="container">
                 <div className="row">

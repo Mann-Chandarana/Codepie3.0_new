@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100;1,400&family=Sora:wght@600&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -69,6 +71,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  font-family: 'Poppins', sans-serif;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -77,8 +80,12 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  padding: 12px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.547);
+}
+
+.navbar-brand a {
+  font-family: 'Sora', sans-serif;
 }
 
 #header .logo {
@@ -144,6 +151,11 @@ h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+}
+
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 .navbar a:hover,
@@ -221,6 +233,10 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.bi-list::before {
+  color: white;
 }
 
 @media (max-width: 1366px) {
@@ -515,6 +531,17 @@ section {
   background: #5a5af3;
   bottom: 0;
   left: calc(50% - 50px);
+}
+
+.custom h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 175px;
+  height: 3px;
+  background: #5a5af3;
+  bottom: 0;
+  left: calc(50% - 75px);
 }
 
 .section-title p {

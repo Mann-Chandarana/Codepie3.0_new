@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css'
 import { Register } from './components/Register';
-import { Features } from './components/Features';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
 import { Navbar } from './components/Navbar';
@@ -12,6 +11,31 @@ import { Rules } from './components/Rules';
 import { Teams } from './components/Teams';
 
 function App() {
+  useEffect(() => {
+    const handler = (ev) => {
+      const scroll = window.scrollY;
+
+      let selectHeader = document.querySelector('#header')
+      let backtotop = document.querySelector('.back-to-top')
+      if (scroll > 100) {
+        selectHeader.classList.add('header-scrolled')
+        backtotop.classList.add('active')
+      } else {
+        selectHeader.classList.remove('header-scrolled');
+        backtotop.classList.remove('active')
+      }
+    }
+    window.addEventListener('scroll', handler);
+    document.querySelector('.mobile-nav-toggle').addEventListener('click', function () {
+      document.querySelector('#navbar').classList.toggle('navbar-mobile')
+      this.classList.toggle('bi-list')
+      this.classList.toggle('bi-x')
+    })
+    return () => {
+      window.removeEventListener('scroll', handler);
+    }
+  }, [])
+
   return (
     <>
       <Navbar />
@@ -19,11 +43,7 @@ function App() {
       <Hero />
 
       <main style={{ marginTop: "-80px" }} id="main">
-
-
         <Services />
-
-        <Features />
         <Rules />
 
         <Gallery />

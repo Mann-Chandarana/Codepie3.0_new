@@ -76,7 +76,6 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
-  alert(selectHeader)
   if (selectHeader) {
     const headerScrolled = () => {
       alert("Mann")
