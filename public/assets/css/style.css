@@ -73,6 +73,7 @@ h6 {
 
 .navbar-brand .codepie-img{
   height: 50px;
+  padding-bottom: 9px;
 }
 
 #header {
@@ -251,6 +252,10 @@ h6 {
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
+  }
+
+  .pricing-img{
+    width: 250px;
   }
 }
 
@@ -444,6 +449,21 @@ h6 {
 #hero .btn-get-quote:hover {
   background: #5a5af3;
   color: #fff;
+}
+
+.iconbox-teal{
+  width: 361px;
+}
+
+@media (max-width:1199px) {
+  .iconbox-teal{
+    width: 456px;
+  }
+}
+@media (max-width:1199px) {
+  .iconbox-teal{
+    width: 480.53px;
+  }
 }
 
 @media (min-width: 1024px) {
