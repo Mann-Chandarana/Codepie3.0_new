@@ -20,50 +20,43 @@ export const Register = () => {
                 </div>
                 <form className="form" onSubmit={handleSubmit}>
                     <label htmlFor="team-size">Team Size:</label>
-                    <select
-                        onChange={handleTeamSizeChange}
-                        id="team-size"
-                        class="form-select"
-                        aria-label="Default select example"
-                    >
-                        <option value={2} selected>
-                            2 - Duo
-                        </option>
+                    <select onChange={handleTeamSizeChange} id="team-size" className="form-select" defaultValue={2}>
+                        <option value={2}>2 - Duo</option>
                         <option value={3}>3 - Trio</option>
                     </select>
 
                     <br />
 
                     <label htmlFor="team-name">Team Name:</label>
-                    <input type="text" class="form-control" placeholder="Enter Team Name" id="team-name" />
+                    <input type="text" className="form-control" placeholder="Enter Team Name" id="team-name" />
 
                     <br />
 
                     <label>Team Leader Details</label>
-                    <div class="row">
-                        <div class="col-sm-12 col-md">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Enter College ID" />
-                                <span class="input-group-text">@charusat.edu.in</span>
+                    <div className="row">
+                        <div className="col-sm-12 col-md">
+                            <div className="input-group mb-3">
+                                <input type="text" className="form-control" placeholder="Enter College ID" />
+                                <span className="input-group-text">@charusat.edu.in</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Full name" />
+                        <div className="col">
+                            <input type="text" className="form-control" placeholder="Full name" />
                         </div>
                     </div>
 
                     <br />
 
                     <label>Team Member 2 Details</label>
-                    <div class="row">
-                        <div class="col-sm-12 col-md">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Enter College ID" />
-                                <span class="input-group-text">@charusat.edu.in</span>
+                    <div className="row">
+                        <div className="col-sm-12 col-md">
+                            <div className="input-group mb-3">
+                                <input type="text" className="form-control" placeholder="Enter College ID" />
+                                <span className="input-group-text">@charusat.edu.in</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Full name" />
+                        <div className="col">
+                            <input type="text" className="form-control" placeholder="Full name" />
                         </div>
                     </div>
 
@@ -72,15 +65,15 @@ export const Register = () => {
                     {teamSize > 2 && (
                         <>
                             <label>Team Member 3 Details</label>
-                            <div class="row">
-                                <div class="col-sm-12 col-md">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter College ID" />
-                                        <span class="input-group-text">@charusat.edu.in</span>
+                            <div className="row">
+                                <div className="col-sm-12 col-md">
+                                    <div className="input-group mb-3">
+                                        <input type="text" className="form-control" placeholder="Enter College ID" />
+                                        <span className="input-group-text">@charusat.edu.in</span>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Full name" />
+                                <div className="col">
+                                    <input type="text" className="form-control" placeholder="Full name" />
                                 </div>
                             </div>
 
