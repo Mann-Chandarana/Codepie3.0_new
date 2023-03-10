@@ -12,16 +12,16 @@ function Card({ name, image, roles }) {
                     style={{ objectFit: 'cover', objectPosition: '50% 30%' }}
                 />
                 <div className="social">
-                    <a href="#">
+                    <a href="/">
                         <i className="bi bi-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a href="/">
                         <i className="bi bi-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a href="/">
                         <i className="bi bi-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="/">
                         <i className="bi bi-linkedin"></i>
                     </a>
                 </div>
