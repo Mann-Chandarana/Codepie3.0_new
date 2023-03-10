@@ -7,6 +7,10 @@ export const Register = () => {
         setTeamSize(e.target.value);
     };
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    };
+
     return (
         <section id="Register" className="contact section-bg">
             <div className="container">
@@ -14,7 +18,7 @@ export const Register = () => {
                     <h2>Register</h2>
                     <p>Register for your teams, there should be 2 members per teams </p>
                 </div>
-                <form className="form">
+                <form className="form" onSubmit={handleSubmit}>
                     <label htmlFor="team-size">Team Size:</label>
                     <select
                         onChange={handleTeamSizeChange}
