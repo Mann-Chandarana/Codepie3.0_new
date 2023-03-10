@@ -12,39 +12,10 @@ function Card({ name, image, roles }) {
                     style={{ objectFit: 'cover', objectPosition: '50% 40%' }}
                 />
                 <div class="p-4">
-                    <h5 class="mb-0">{name}</h5>
-                    <p class="small text-muted">
-                        {roles.map((role, k) => {
-                            return (
-                                <>
-                                    {role}
-                                    <br />
-                                </>
-                            );
-                        })}
-                    </p>
-                    <ul class="social mb-0 list-inline mt-3">
-                        <li class="list-inline-item m-0">
-                            <a href="#" class="social-link">
-                                <i class="fa fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a href="#" class="social-link">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a href="#" class="social-link">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a href="#" class="social-link">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <div className="member-info" style={{ textAlign: 'center' }}>
+                        <h4>{name}</h4>
+                        <span>Student</span>
+                    </div>
                 </div>
             </div>
         </div>
