@@ -26,11 +26,6 @@ function App() {
       }
     };
     window.addEventListener('scroll', handler);
-    document.querySelector('.mobile-nav-toggle').addEventListener('click', function () {
-      document.querySelector('#navbar').classList.toggle('navbar-mobile');
-      this.classList.toggle('bi-list');
-      this.classList.toggle('bi-x');
-    });
 
     return () => {
       window.removeEventListener('scroll', handler);
