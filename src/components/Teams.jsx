@@ -1,223 +1,41 @@
-import React from 'react'
-import '../Carosuel.css'
+import React from 'react';
+import Slider from 'react-slick';
+import '../Carosuel.css';
+import Card from './Card';
 
 export const Teams = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        pauseOnHover: false,
+    };
+
     return (
         <section id="team" className="team section-bg">
             <div className="container">
-
                 <div className="section-title">
                     <h2>Codepie Team</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
                 </div>
 
-                <div className="row">
-                    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <div className="cards-wrapper">
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Vatsal.jpeg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Vatsal Ghoghari</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Mandar.jpeg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Mandar Sanghavi</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Meet.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Meet Butani</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Mann.jpeg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Mann Chandarana</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="cards-wrapper">
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Neel Thomas</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Dev Halvawala</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Tarang Sutaria</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Ish.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Ish Thummar</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/Jekeel.png" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Jekeel Shah</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                        <div className="member">
-                                            <div className="member-img">
-                                                <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
-                                                <div className="social">
-                                                    <a ><i className="bi bi-twitter"></i></a>
-                                                    <a ><i className="bi bi-facebook"></i></a>
-                                                    <a ><i className="bi bi-instagram"></i></a>
-                                                    <a ><i className="bi bi-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                            <div className="member-info">
-                                                <h4>Ditsa Mandani</h4>
-                                                <span>Student</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
+                <Slider {...settings}>
+                    <Card name="Vatsal Ghoghari" image="/assets/img/team/Vatsal.jpeg" roles={['Head', 'Platform']} />
+                    <Card name="Mann Chandarana" image="/assets/img/team/Mann.jpeg" roles={['Head']} />
+                    <Card name="Jekeel Shah" image="/assets/img/team/Jekeel.png" roles={['Head']} />
+                    <Card name="Mandar Sanghavi" image="/assets/img/team/Mandar.jpeg" roles={['Head']} />
+                    <Card name="Meet Butnai" image="/assets/img/team/Meet.jpg" roles={['Head']} />
+                </Slider>
             </div>
         </section>
-    )
-}
+    );
+};

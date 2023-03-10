@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import './App.css'
+import React, { useEffect } from 'react';
+import './App.css';
 import { Register } from './components/Register';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -15,27 +15,27 @@ function App() {
     const handler = (ev) => {
       const scroll = window.scrollY;
 
-      let selectHeader = document.querySelector('#header')
-      let backtotop = document.querySelector('.back-to-top')
+      let selectHeader = document.querySelector('#header');
+      let backtotop = document.querySelector('.back-to-top');
       if (scroll > 100) {
-        selectHeader.classList.add('header-scrolled')
-        backtotop.classList.add('active')
+        selectHeader.classList.add('header-scrolled');
+        backtotop.classList.add('active');
       } else {
         selectHeader.classList.remove('header-scrolled');
-        backtotop.classList.remove('active')
+        backtotop.classList.remove('active');
       }
-    }
+    };
     window.addEventListener('scroll', handler);
     document.querySelector('.mobile-nav-toggle').addEventListener('click', function () {
-      document.querySelector('#navbar').classList.toggle('navbar-mobile')
-      this.classList.toggle('bi-list')
-      this.classList.toggle('bi-x')
-    })
+      document.querySelector('#navbar').classList.toggle('navbar-mobile');
+      this.classList.toggle('bi-list');
+      this.classList.toggle('bi-x');
+    });
 
     return () => {
       window.removeEventListener('scroll', handler);
-    }
-  }, [])
+    };
+  }, []);
 
   return (
     <>
