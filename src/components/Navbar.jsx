@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Navbar = () => {
     return (
-        <header style={{backgroundColor:"#4937a6",paddingBottom:"12px"}} id="header" className="fixed-top">
+        <header style={{backgroundColor:"#434175",paddingBottom:"12px"}} id="header" className="fixed-top">
             <div style={{padding: "5px 0"}} className="container d-flex align-items-center justify-content-between">
 
-                <h1 className="navbar-brand"><a style={{textDecoration:"none",color:"white"}} href="index.html"><img className='codepie-img' src="CodePie.png" alt="" />   CODE<span style={{color:"orange"}}>PIE</span> 3.0</a></h1>
+                <h1 className="navbar-brand"><a style={{textDecoration:"none",color:"white"}} href="index.html"><img className='codepie-img' src="1.png" alt="" />   CODE<span style={{color:"orange"}}>PIE</span> 3.0</a></h1>
                 <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a>
 
                 <nav id="navbar" className="navbar">
