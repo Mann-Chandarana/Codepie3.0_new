@@ -41,7 +41,7 @@ export const Register = () => {
 
                     <label>Team Leader Details</label>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-sm-12 col-md">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Enter College ID" />
                                 <span class="input-group-text">@charusat.edu.in</span>
@@ -56,7 +56,7 @@ export const Register = () => {
 
                     <label>Team Member 2 Details</label>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-sm-12 col-md">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Enter College ID" />
                                 <span class="input-group-text">@charusat.edu.in</span>
@@ -73,7 +73,7 @@ export const Register = () => {
                         <>
                             <label>Team Member 3 Details</label>
                             <div class="row">
-                                <div class="col">
+                                <div class="col-sm-12 col-md">
                                     <div class="input-group mb-3">
                                         <input type="text" class="form-control" placeholder="Enter College ID" />
                                         <span class="input-group-text">@charusat.edu.in</span>

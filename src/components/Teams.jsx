@@ -43,15 +43,18 @@ export const Teams = () => {
                 </div>
 
                 <Slider {...settings}>
-                    <Card
-                        name="Vatsal Ghoghari"
-                        image="/assets/img/team/Vatsal.jpeg"
-                        roles={['Head', 'Platform', 'Management']}
-                    />
-                    <Card name="Mann Chandarana" image="/assets/img/team/Mann.jpeg" roles={['Head']} />
-                    <Card name="Jekeel Shah" image="/assets/img/team/Jekeel.png" roles={['Head']} />
-                    <Card name="Mandar Sanghavi" image="/assets/img/team/Mandar.jpeg" roles={['Head']} />
-                    <Card name="Meet Butnai" image="/assets/img/team/Meet.jpg" roles={['Head']} />
+                    <Card name="Vatsal Ghoghari" image="/assets/images/team/Vatsal.jpg" roles={['...']} />
+                    <Card name="Meet Butani" image="/assets/images/team/Meet.jpg" roles={['...']} />
+                    <Card name="Mann Chanadarana" image="/assets/images/team/Mann.jpg" roles={['...']} />
+                    <Card name="Ditsa Mandani" image="/assets/images/team/Ditsa.jpg" roles={['...']} />
+                    <Card name="Shyamal Jhosi" image="/assets/images/team/Shyamal.jpg" roles={['...']} />
+                    <Card name="Mandar Sanghavi" image="/assets/images/team/Mandar.jpg" roles={['...']} />
+                    <Card name="Ish Thumber" image="/assets/images/team/Ish.jpg" roles={['...']} />
+                    <Card name="Neel Thomas" image="/assets/images/team/Neel.jpg" roles={['...']} />
+                    <Card name="Jekeel Shah" image="/assets/images/team/Jekeel.png" roles={['...']} />
+                    <Card name="Aneri" image="/assets/images/team/Aneri.jpg" roles={['...']} />
+                    <Card name="Nidhi" image="/assets/images/team/Nidhi.jpg" roles={['...']} />
+                    <Card name="Devansh" image="/assets/images/team/Devansh.jpg" roles={['...']} />
                 </Slider>
             </div>
         </section>
