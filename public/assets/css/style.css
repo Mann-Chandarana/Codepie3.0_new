@@ -1154,14 +1154,19 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing-img{
+  margin-top: 2rem;
+  width: 300px;
+}
 .pricing .row {
   padding-top: 40px;
+  padding-bottom: -20px;
 }
 
 .pricing .box {
   padding: 40px;
-  margin-bottom: 30px;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  margin-bottom: 160px;
+  box-shadow: 0px 0px 30px rgba(44, 46, 50, 0.15);
   background: #fff;
   text-align: center;
 }
@@ -1236,7 +1241,7 @@ section {
 
 .pricing .featured {
   z-index: 10;
-  margin: -30px -5px 0 -5px;
+  margin: -30px -5px 92px -5px;
 }
 
 .pricing .featured .btn-buy {
