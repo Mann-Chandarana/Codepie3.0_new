@@ -985,17 +985,17 @@ section {
   color: #1313ee;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+/* .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 1;
-}
+} */
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+/* .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
   top: 15px;
@@ -1154,6 +1154,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing{
+  text-align: center;
+}
 .pricing-img{
   margin-top: 2rem;
   width: 300px;
@@ -1693,4 +1696,8 @@ section {
   background: #5a5af3;
   color: #fff;
   text-decoration: none;
+}
+
+.box{
+  border-radius: 20px;
 }
