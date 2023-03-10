@@ -12,7 +12,7 @@ const settings = {
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
     responsive: [
         {
             breakpoint: 1000,
@@ -43,7 +43,11 @@ export const Teams = () => {
                 </div>
 
                 <Slider {...settings}>
-                    <Card name="Vatsal Ghoghari" image="/assets/img/team/Vatsal.jpeg" roles={['Head', 'Platform']} />
+                    <Card
+                        name="Vatsal Ghoghari"
+                        image="/assets/img/team/Vatsal.jpeg"
+                        roles={['Head', 'Platform', 'Management']}
+                    />
                     <Card name="Mann Chandarana" image="/assets/img/team/Mann.jpeg" roles={['Head']} />
                     <Card name="Jekeel Shah" image="/assets/img/team/Jekeel.png" roles={['Head']} />
                     <Card name="Mandar Sanghavi" image="/assets/img/team/Mandar.jpeg" roles={['Head']} />

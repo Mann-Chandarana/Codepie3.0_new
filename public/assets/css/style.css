@@ -1074,6 +1074,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -1122,7 +1123,7 @@ section {
 }
 
 .team .member .member-info {
-    padding: 25px 15px;
+    padding: 15px 15px;
 }
 
 .team .member .member-info h4 {
