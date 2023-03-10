@@ -3,19 +3,33 @@ import Slider from 'react-slick';
 import '../Carosuel.css';
 import Card from './Card';
 
-export const Teams = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: false,
-        pauseOnHover: false,
-    };
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    pauseOnHover: false,
+    responsive: [
+        {
+            breakpoint: 1000,
+            settings: {
+                slidesToShow: 2,
+            },
+        },
+        {
+            breakpoint: 650,
+            settings: {
+                slidesToShow: 1,
+            },
+        },
+    ],
+};
 
+export const Teams = () => {
     return (
         <section id="team" className="team section-bg">
             <div className="container">
