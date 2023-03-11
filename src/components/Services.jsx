@@ -21,7 +21,7 @@ export const Services = () => {
                         <div className="icon-boxes d-flex flex-column justify-content-center">
                             <div className="row">
                                 <div
-                                    className="col-lg-6 d-flex align-items-stretch"
+                                    className="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 h-100"
                                     data-aos="zoom-in"
                                     data-aos-delay="100"
                                 >
@@ -52,7 +52,7 @@ export const Services = () => {
                                 </div>
 
                                 <div
-                                    className="col-lg-6 d-flex align-items-stretch mt-4 mt-lg-0"
+                                    className="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
                                     data-aos="zoom-in"
                                     data-aos-delay="200"
                                 >
@@ -83,7 +83,7 @@ export const Services = () => {
                                 </div>
 
                                 <div
-                                    className="col-lg-6 d-flex align-items-stretch mt-4"
+                                    className="col-lg-6 col-md-6 d-flex align-items-stretch mt-4"
                                     data-aos="zoom-in"
                                     data-aos-delay="300"
                                 >
@@ -112,7 +112,7 @@ export const Services = () => {
                                 </div>
 
                                 <div
-                                    className="col-lg-6 d-flex align-items-stretch mt-4"
+                                    className="col-lg-6 col-md-6 d-flex align-items-stretch mt-4"
                                     data-aos="zoom-in"
                                     data-aos-delay="100"
                                 >

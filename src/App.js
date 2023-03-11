@@ -42,7 +42,7 @@ function App() {
 
       <Hero />
 
-      <main style={{ marginTop: "-80px" }} id="main">
+      <main id="main">
         <Services />
         <Rules />
 
