@@ -11,6 +11,10 @@ import { Rules } from './components/Rules';
 import { Teams } from './components/Teams';
 
 function App() {
+  const backToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   useEffect(() => {
     const handler = (ev) => {
       const scroll = window.scrollY;
@@ -50,7 +54,7 @@ function App() {
         <Register />
       </main>
 
-      <a href="/" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+      <button onClick={backToTop} className="back-to-top d-flex align-items-center justify-content-center border-0"><i className="bi bi-arrow-up-short"></i></button>
       <Footer />
 
     </>

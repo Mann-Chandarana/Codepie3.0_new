@@ -43,7 +43,7 @@ export const Services = () => {
                                             <i className="bx bxl-dribbble"></i>
                                         </div>
                                         <h4>
-                                            <a href="/">Internet Detection</a>
+                                            <button className="border-0 bg-transparent">Internet Detection</button>
                                         </h4>
                                         <p>
                                             Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
@@ -74,7 +74,7 @@ export const Services = () => {
                                             <i className="bx bx-file"></i>
                                         </div>
                                         <h4>
-                                            <a href="/">Custom Judge</a>
+                                            <button className="border-0 bg-transparent">Custom Judge</button>
                                         </h4>
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -105,7 +105,7 @@ export const Services = () => {
                                             <i className="bx bx-tachometer"></i>
                                         </div>
                                         <h4>
-                                            <a href="/">Plagarisim check</a>
+                                            <button className="border-0 bg-transparent">Plagarisim check</button>
                                         </h4>
                                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                     </div>
@@ -134,7 +134,7 @@ export const Services = () => {
                                             <i className="bx bx-layer"></i>
                                         </div>
                                         <h4>
-                                            <a href="/">Language Accepted</a>
+                                            <button className="border-0 bg-transparent">Language Accepted</button>
                                         </h4>
                                         <p>C++ , Python , Java</p>
                                     </div>

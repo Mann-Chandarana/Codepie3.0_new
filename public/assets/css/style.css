@@ -751,9 +751,10 @@ section {
     font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h4 button {
     color: #434175;
     transition: ease-in-out 0.3s;
+    font-weight: bold;
 }
 
 .services .icon-box p {
