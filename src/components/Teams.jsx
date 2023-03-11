@@ -43,7 +43,11 @@ export const Teams = () => {
                 </div>
 
                 <Slider {...settings}>
-                    <Card name="Vatsal Ghoghari" image="/assets/images/team/Vatsal.jpg" roles={['...']} />
+                    <Card
+                        name="Vatsal Ghoghari"
+                        image="/assets/images/team/Vatsal.jpg"
+                        roles={['Platform Team', 'Web Team']}
+                    />
                     <Card name="Meet Butani" image="/assets/images/team/Meet.jpg" roles={['...']} />
                     <Card name="Mann Chanadarana" image="/assets/images/team/Mann.jpg" roles={['...']} />
                     <Card name="Ditsa Mandani" image="/assets/images/team/Ditsa.jpg" roles={['...']} />
