@@ -43,7 +43,6 @@ export const Rules = () => {
                             </h4>
                         </div>
                     </div>
-
                     <div className="col-lg-4 col-md-6 mt-4">
                         <div className="box mt-4 h-100">
                             <span>Rule: 04</span>
