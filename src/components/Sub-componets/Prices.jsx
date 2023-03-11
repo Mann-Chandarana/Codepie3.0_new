@@ -7,7 +7,7 @@ export const Prices = () => {
                 <h3>Runner-up Team</h3>
                 <div className="card-body">
                     <h2 className="pricing-text">
-                        <img className="pricing-img watch sf " src="/images/prizes/wf.png" alt="" />
+                        <img className="pricing-img watch sf " src="/assets/images/prizes/wf.png" alt="" />
                     </h2>
                     <br />
                     <br />
@@ -19,7 +19,7 @@ export const Prices = () => {
                 <h3>Winner</h3>
                 <div className="card-body">
                     <h2 className="pricing-text">
-                        <img className="pricing-img watch sf" src="/images/prizes/watch1.jpg" alt="" />
+                        <img className="pricing-img watch sf" src="/assets/images/prizes/watch1.jpg" alt="" />
                     </h2>
                     <br />
                     <br />
@@ -34,7 +34,7 @@ export const Prices = () => {
                 <h3>2nd Runner-up</h3>
                 <div className="card-body">
                     <h2 className="pricing-text ">
-                        <img className="pricing-img watch sf img-third" src="/images/prizes/third1.png" alt="" />
+                        <img className="pricing-img watch sf img-third" src="/assets/images/prizes/third1.png" alt="" />
                     </h2>
                     <br />
                     <br />
