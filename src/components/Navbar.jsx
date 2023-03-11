@@ -8,13 +8,10 @@ export const Navbar = () => {
             <div className="container d-flex align-items-center justify-content-between">
                 <h1 style={{ marginBottom: '-5px' }} className="navbar-brand">
                     <a style={{ textDecoration: 'none', color: 'white' }} href="index.html">
-                        <img className="codepie-img" src="1.png" alt="" /> CODE
+                        <img className="codepie-img" src="assets/images/logo/1.png" alt="" /> CODE
                         <span style={{ color: 'orange' }}>PIE</span> 3.0
                     </a>
                 </h1>
-                <a href="index.html" className="logo">
-                    <img src="assets/img/logo.png" alt="" className="img-fluid" />
-                </a>
 
                 <nav
                     id="navbar"
