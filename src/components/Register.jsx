@@ -62,7 +62,7 @@ export const Register = () => {
                     <HiUserGroup /> 
                     <label htmlFor="team-name">Team Name:</label>
                     <input type="text" className="form-control" placeholder="Enter Team Name" id="team-name" />
-
+                    <button className="btn btn-md ">Verify</button>
                     <br />
                     <GiCaptainHatProfile />
                     <label>Team Leader Details</label>
