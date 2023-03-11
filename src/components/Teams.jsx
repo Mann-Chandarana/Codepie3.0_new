@@ -52,9 +52,20 @@ export const Teams = () => {
                     <Card name="Ish Thumber" image="/assets/images/team/Ish.jpg" roles={['...']} />
                     <Card name="Neel Thomas" image="/assets/images/team/Neel.jpg" roles={['...']} />
                     <Card name="Jekeel Shah" image="/assets/images/team/Jekeel.png" roles={['...']} />
+                    <Card name="Dev Halvawala" image="/assets/images/team/Dev.jpeg" roles={['...']} />
                     <Card name="Aneri" image="/assets/images/team/Aneri.jpg" roles={['...']} />
-                    <Card name="Nidhi" image="/assets/images/team/Nidhi.jpg" roles={['...']} />
+                    <Card name="Nidhi Batra" image="/assets/images/team/Nidhi.jpg" roles={['...']} />
                     <Card name="Devansh" image="/assets/images/team/Devansh.jpg" roles={['...']} />
+                    <Card name="Shruti Paghadal" image="/assets/images/team/Shruti.jpg" roles={['...']} />
+                    <Card name="Viraj Patoliya" image="/assets/images/team/Viraj.jpg" roles={['...']} />
+                    <Card name="Kartik Patel" image="/assets/images/team/Kartik.jpg" roles={['...']} />
+                    <Card name="Hemil Kevadiya" image="/assets/images/team/Hemil.jpg" roles={['...']} />
+                    <Card name="Sagar Bhanushali" image="/assets/images/team/Sagar.jpg" roles={['...']} />
+                    <Card name="Jeet Vansjaliya" image="/assets/images/team/Jeet.jpg" roles={['...']} />
+                    <Card name="Krish Vachhani" image="/assets/images/team/Krish.jpg" roles={['...']} />
+                    <Card name="Jay Sudani" image="/assets/images/team/Jay.jpg" roles={['...']} />
+                    <Card name="Viraj Vasani" image="/assets/images/team/Viraj2.jpg" roles={['...']} />
+                    <Card name="Pinak Thakar" image="/assets/images/team/Pinak.png" roles={['...']} />
                 </Slider>
             </div>
         </section>
