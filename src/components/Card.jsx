@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card({ name, image, roles }) {
     return (
-        <div className="member mx-3 border-5">
+        <div className="member mx-3" style={{ borderRadius: '10px' }}>
             <div className="member-img">
                 <img
                     src={image}
