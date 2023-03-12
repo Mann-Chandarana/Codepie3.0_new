@@ -55,7 +55,7 @@ export const Teams = () => {
                     <Card name="Mandar Sanghavi" image="/assets/images/team/Mandar.webp" roles={['...']} />
                     <Card name="Ish Thumber" image="/assets/images/team/Ish.webp" roles={['...']} />
                     <Card name="Neel Thomas" image="/assets/images/team/Neel.webp" roles={['...']} />
-                    <Card name="Jekeel Shah" image="/assets/images/team/Jekeel.webp" roles={['...']} />
+                    <Card name="Jekeel Shah" image="/assets/images/team/jekeel.webp" roles={['...']} />
                     <Card name="Dev Halvawala" image="/assets/images/team/Dev.webp" roles={['...']} />
                     <Card name="Aneri" image="/assets/images/team/Aneri.webp" roles={['...']} />
                     <Card name="Nidhi Batra" image="/assets/images/team/Nidhi.webp" roles={['...']} />
