@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ name, image, roles }) {
+function Card({ name, image, role }) {
     return (
         <div className="member mx-3" style={{ borderRadius: '10px' }}>
             <div className="member-img">
@@ -28,7 +28,15 @@ function Card({ name, image, roles }) {
             </div>
             <div className="member-info">
                 <h4>{name}</h4>
-                <p className="text-muted">{roles.join(', ')}</p>
+                <p className="text-muted">
+                    Member of
+                    {
+                        <>
+                            <br />
+                            {role}
+                        </>
+                    }
+                </p>
             </div>
         </div>
     );
