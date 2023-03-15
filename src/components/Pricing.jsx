@@ -1,4 +1,5 @@
 import React from 'react';
+import Prices from './Sub-componets/Prices'
 
 export const Pricing = () => {
     return (
@@ -8,7 +9,7 @@ export const Pricing = () => {
                     <h2>Winners take these home!!</h2>
                 </div>
                 <div>
-                    <h1>Coming Soon...</h1>
+                    <Prices />
                 </div>
             </div>
         </section>

@@ -1,13 +1,13 @@
 import React from 'react';
 
-export const Prices = () => {
+const Prices = () => {
     return (
         <div className="row no-gutters">
             <div className="col-lg-4 box">
                 <h3>Runner-up Team</h3>
                 <div className="card-body">
                     <h2 className="pricing-text">
-                        <img className="pricing-img watch sf " src="/assets/images/prizes/wf.png" alt="" />
+                        <img className="pricing-img watch sf " src="/assets/images/prizes/1.jpg" alt="" />
                     </h2>
                     <br />
                     <br />
@@ -19,7 +19,7 @@ export const Prices = () => {
                 <h3>Winner</h3>
                 <div className="card-body">
                     <h2 className="pricing-text">
-                        <img className="pricing-img watch sf" src="/assets/images/prizes/watch1.jpg" alt="" />
+                        <img className="pricing-img watch sf" src="/assets/images/prizes/2.jpg" alt="" />
                     </h2>
                     <br />
                     <br />
@@ -34,7 +34,7 @@ export const Prices = () => {
                 <h3>2nd Runner-up</h3>
                 <div className="card-body">
                     <h2 className="pricing-text ">
-                        <img className="pricing-img watch sf img-third" src="/assets/images/prizes/third1.png" alt="" />
+                        <img className="pricing-img watch sf img-third" src="/assets/images/prizes/3.jpg" alt="" />
                     </h2>
                     <br />
                     <br />
@@ -51,3 +51,5 @@ export const Prices = () => {
         </div>
     );
 };
+
+export default Prices
